@@ -1,0 +1,23 @@
+# Environment files and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+.makefun/
+keypairs/
+wallets/
+*keypair*.json
+*wallet*.json
+id.json
+*.p12
+*.pfx
+*.keystore
+
+# Local tooling and generated files
+node_modules/
+.cache/
+*.log
+*.rbxl.lock
+*.rbxlx.lock
